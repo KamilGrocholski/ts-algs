@@ -1,0 +1,31 @@
+{
+  "name": "my-ts-algs",
+  "version": "1.0.5",
+  "description": "4213123921382138b128b31238nv123cb12c3128321390213921398213v12312hshwevy12v3b28bx1y2x12u3921u3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "test": "nodemon test/index.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KamilGrocholski/ts-algs"
+  },
+  "files": [
+    "/dist",
+    "readme.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.8",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "nodemon": "^2.0.20"
+  }
+}
